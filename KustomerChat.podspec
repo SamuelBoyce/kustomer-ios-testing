@@ -7,8 +7,7 @@ Pod::Spec.new do |s|
   s.license = { :type => 'custom', :file => 'LICENSE' }
   s.homepage = 'https://github.com/kustomer/kustomer-ios'
   s.source = {
-    :git => 'https://github.com/kustomer/kustomer-ios.git',
-    :tag => s.version.to_s
+    :http => 'https://github.com/SamuelBoyce/kustomer-ios-testing/releases/download/2.7.8/KustomerChat.zip'
   }
   s.summary = 'The iOS SDK for the Kustomer.com mobile client'
   s.documentation_url = 'https://developer.kustomer.com/chat-sdk/docs'
@@ -17,4 +16,4 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'KustomerChat.xcframework'
   s.dependency 'PubNubSwift', '~> 5.0.0'
   s.dependency 'Down', '~> 0.11.0'
-end 
+end
